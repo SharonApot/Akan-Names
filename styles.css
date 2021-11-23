@@ -1,16 +1,25 @@
 .header img {
-    width: 150px;
+    width: 100px;
     float: left; 
     
 }
 
 .header h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-family: "Gabriola";
     color: rgb(18, 137, 167); 
     text-indent: 25%;
     top: 25px
-    
-
   
+}
+
+table {
+    float: left;
+}
+
+table, th, td {
+    border: 2px solid rgb(18, 137, 167);
+}
+th, td {
+    padding: 5px;
 }
