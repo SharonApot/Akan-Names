@@ -33,3 +33,7 @@ th, td {
     border: 2px solid rgb(18, 137, 167);
     margin-bottom: 0%;
 }
+body {
+    font-family: "Century Gothic";
+    background-image: url("Background.png");
+}
