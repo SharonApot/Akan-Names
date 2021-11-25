@@ -8,15 +8,25 @@
     //DD - is the Day of the month 
     //mod - is the modulus function ( % )
 
-function getInputValue(){
+function displaySelection(){
+        alert ("dayvalue,monthValue,yearValue");
+}
+
+    function getInputValue(){
     var dayValue = document.getElementsByName("day").value;
     var monthValue = document.getElementsByName ("month").value;
     var yearvalue = document.getElementsByName ("year").value;
 }
 
-function getRadioCheckedValue(){
-  
-    }
+function displayRadioValue() {
+        var ele = document.getElementsByName('gender');    
+        for(i = 0; i < ele.length; i++) {
+            if(ele[i].checked)
+            document.getElementById("result").innerHTML
+                    = "gender: "+ele[i].value;
+        }
+}
+
     
 //Day of the week (d) = ( ( (cc/4) -2*CC-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) mod 7
 

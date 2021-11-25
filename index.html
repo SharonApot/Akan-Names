@@ -63,7 +63,7 @@
         <div Class = "Box">
         <p>
             Enter your birth-date and gender below to see what your Akan name would be.
-            <form name ="akannamegenerator">
+            <form name ="akannamegenerator" onsubmit=return "displaySelection()">
                 Please Select Your Gender; <br><br>
                   <input type="radio" id="male" name="gender" value="MALE">
                   <label for="male">MALE</label>
@@ -79,7 +79,7 @@
                   <input type="text" name = "year" id="year"maxlength="4" size="4">
                 
                 <br><br>
-                <input type="submit" value="SUBMIT" onsubmit="displaySelection()">
+                <input type="submit" value="SUBMIT" >
                 <input type ="reset" value="RESET">
                 <div id="result"></div>
             </form>

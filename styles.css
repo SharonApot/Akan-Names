@@ -37,3 +37,21 @@ body {
     font-family: "Century Gothic";
     background-image: url("Background.png");
 }
+
+label {
+    cursor: pointer;
+}
+
+input[type=text]:hover{
+    border: 2px solid rgb(18, 137, 167);
+    
+}
+
+input[type=submit]:hover{
+    border: 2px solid rgb(18, 137, 167);
+
+}
+input[type=reset]:hover{
+    border: 2px solid rgb(18, 137, 167);
+
+}
