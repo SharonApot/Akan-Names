@@ -4,7 +4,7 @@
         <title>AKAN NAMES</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="shortcut icon" href="Akan.png">
-        <script src="akan.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </head>
     <body>
         <div class ="header">
@@ -72,16 +72,14 @@
                 
                 Please Enter Your Date Of birth-date;<br><br>
                   <label for="Day">DAY</label>
-                  <input type="text" name = "day" id="day"maxlength="2" size="2">
-                  <label for="Day">MONTH</label>
-                  <input type="text" name = "month" id="month"maxlength="2" size="2">
-                  <label for="Day">YEAR</label>
-                  <input type="text" name = "year" id="year"maxlength="4" size="4">
-                
-                <br><br>
-                <input type="submit" value="SUBMIT" >
-                <input type ="reset" value="RESET">
-                <div id="result"></div>
+                  <input type="text" name = "day" id="day"maxlength="2" size="2" autofocus placeholder="1-31">
+                  <label for="Month">MONTH</label>
+                  <input type="text" name = "month" id="month"maxlength="2" size="2" autofocus placeholder="1-12">
+                  <label for="Year">YEAR</label>
+                  <select id="year"></select>                
+                  <br><br>
+                  <input type="submit" value="SUBMIT" >
+                  <input type ="reset" value="RESET">
             </form>
         </p>
         </div>

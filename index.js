@@ -1,44 +1,10 @@
-//Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
- 
-//where;
-
-    //CC - is the century digits. For example 1989 has CC = 19
-    //YY - is the Year digits (1989 has YY = 89)
-    //MM - is the Month
-    //DD - is the Day of the month 
-    //mod - is the modulus function ( % )
-
-function displaySelection(){
-        alert ("dayvalue,monthValue,yearValue");
-}
-
-    function getInputValue(){
-    var dayValue = document.getElementsByName("day").value;
-    var monthValue = document.getElementsByName ("month").value;
-    var yearvalue = document.getElementsByName ("year").value;
-}
-
-function displayRadioValue() {
-        var ele = document.getElementsByName('gender');    
-        for(i = 0; i < ele.length; i++) {
-            if(ele[i].checked)
-            document.getElementById("result").innerHTML
-                    = "gender: "+ele[i].value;
-        }
-}
-
-    
-//Day of the week (d) = ( ( (cc/4) -2*CC-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) mod 7
-
-var dayOfWeek = d;
-d = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
-
-var yy= year
-var cc = console.log(year.slice(0,1));
-var mm = month
-var dd = day
-
-
-
-
- 
+window.onload = function () {
+    var year = document.getElementById("year");
+    var currentYear = (new Date()).getFullYear();
+    for (var i = 1940; i <= currentYear; i++) {
+        var option = document.createElement("OPTION");
+        option.innerHTML = i;
+        option.value = i;
+        year.appendChild(option);
+    }
+};

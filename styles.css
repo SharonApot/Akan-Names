@@ -1,7 +1,6 @@
 .header img {
     width: 100px;
-    float: left; 
-    
+    float: left;  
 }
 
 .header h1 {
@@ -10,7 +9,6 @@
     color: rgb(18, 137, 167); 
     text-indent: 25%;
     top: 25px
-  
 }
 
 table {
@@ -33,6 +31,7 @@ th, td {
     border: 2px solid rgb(18, 137, 167);
     margin-bottom: 0%;
 }
+
 body {
     font-family: "Century Gothic";
     background-image: url("Background.png");
@@ -47,11 +46,18 @@ input[type=text]:hover{
     
 }
 
+input[type=text]:focus{
+    border: 2px solid rgb(18, 137, 167);
+}
+
 input[type=submit]:hover{
     border: 2px solid rgb(18, 137, 167);
-
 }
+
 input[type=reset]:hover{
     border: 2px solid rgb(18, 137, 167);
 
+}
+select[id=year]:hover{
+    border: 2px solid rgb(18, 137, 167); 
 }
