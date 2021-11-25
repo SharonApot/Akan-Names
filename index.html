@@ -63,7 +63,7 @@
         <div Class = "Box">
         <p>
             Enter your birth-date and gender below to see what your Akan name would be.
-            <form>
+            <form name ="akannamegenerator">
                 Please Select Your Gender; <br><br>
                   <input type="radio" id="male" name="gender" value="MALE">
                   <label for="male">MALE</label>
@@ -72,14 +72,16 @@
                 
                 Please Enter Your Date Of birth-date;<br><br>
                   <label for="Day">DAY</label>
-                  <input type="text" id="Day"maxlength="2" size="2">
+                  <input type="text" name = "day" id="day"maxlength="2" size="2">
                   <label for="Day">MONTH</label>
-                  <input type="text" id="Month"maxlength="2" size="2">
+                  <input type="text" name = "month" id="month"maxlength="2" size="2">
                   <label for="Day">YEAR</label>
-                  <input type="text" id="Year"maxlength="4" size="4">
+                  <input type="text" name = "year" id="year"maxlength="4" size="4">
                 
                 <br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="SUBMIT" onsubmit="displaySelection()">
+                <input type ="reset" value="RESET">
+                <div id="result"></div>
             </form>
         </p>
         </div>
