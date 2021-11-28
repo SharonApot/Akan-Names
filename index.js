@@ -1,3 +1,4 @@
+//code for year of birth drop down
 window.onload = function () {
     var year = document.getElementById("year");
     var currentYear = (new Date()).getFullYear();
@@ -13,6 +14,8 @@ window.onload = function () {
 //where;
 //CC - is the century digits. For example 1989 has CC = 19
 //YY - is the Year digits (1989 has YY = 89)
-//MM -  is the Month
+//MM - is the Month
 //DD - is the Day of the month 
 //mod - is the modulus function ( % )
+
+

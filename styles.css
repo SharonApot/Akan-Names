@@ -8,7 +8,7 @@
     font-family: cursive;
     color: rgb(18, 137, 167); 
     text-indent: 05%;
-    top: 25px
+    top: 25px;
 }
 
 table {
@@ -20,20 +20,20 @@ table, th, td {
 }
 
 th, td {
-    padding: 7px;
+    padding: 8.5px;
 }
 
 .Box
     {
     float: right;
-    padding: 1%;
-    width: 68%;
+    padding: 0.5%;
+    width: 60%;
     border: 2px solid rgb(18, 137, 167);
-    margin-bottom: 0%;
 }
 
 body {
     font-family: "Century Gothic";
+    font-size: 18px;
     background-image: url("Background.png");
 }
 
@@ -60,4 +60,8 @@ input[type=reset]:hover{
 
 select[id=year]:hover{
     border: 2px solid rgb(18, 137, 167); 
+}
+
+h2 {
+    color: solid rgb(18, 137, 167); 
 }
