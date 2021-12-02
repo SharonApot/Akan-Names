@@ -20,11 +20,10 @@ function myFunction() {
   
   // If x is Not a Number or less than one or greater than 31
   // If y is Not a Number or less than one or greater than 12
-  // If z is Not a Number or less than one thousand nine hundred or greater than Two thousand and Twenty One
   
   let text;
-  if ((isNaN(x) || x < 1 || x > 31) || (isNaN(y) || y < 1 || y> 12) || (isNaN(z) || z> 2021)){
-    text = "Input not valid. Enter digits";
+  if ((isNaN(x) || x < 1 || x > 31) || (isNaN(y) || y < 1 || y> 12)){
+    text = "Input not valid. Enter correct day and Month";
   } else {
     text = "Your Birthdate is " + (x)+"/"+ (y) + "/" +(z);
   }
