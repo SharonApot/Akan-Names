@@ -48,6 +48,20 @@ function myFunction() {
   let dayOfWeekIndex = Math.floor((((Number(selectedYear.slice(0,2))/4)-2*Number(selectedYear.slice(0,2))-1)+
           ((5*Number(selectedYear.slice(2,4))/4))+((26*(y+1)/10))+x)%7);
 
+  //Arrays for Male and Female Akan names and the days of the week
+  let daysOfWeek = [
+    "SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"
+  ];
+
+  let maleAkanNames = [
+    "KWASI", "KWADWO", "KWABENA", "KWAKU", "YAW", "KOFI", "KWAME"
+  ];
+
+  let femaleAkanNames = [
+    "AKOSUA", "ADWOA", "ABENAA", "AKUA", "YAA", "AFUA", "AMA"
+  ];
+
+  
 
 
 
