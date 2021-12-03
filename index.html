@@ -61,20 +61,28 @@
             </tr>
         </table>
         <div Class = "Box">
-        <p>Select your gender and enter your birth-date below to see what your Akan name would be.</p>
+            <p>Select your gender and enter your birth-date below to see what your Akan name would be.</p>
+                <label for="gender">
+                <p>Please Select Your Gender: </p>
+                Male
+                <input id="male" type="radio" name="gender" value="Male" required>
+                Female
+                <input id="female" type="radio" name="gender" value="Female" required>
+    
+                </label>
         
-        <p>Please Enter Your Day Of Birth:</p>
-        <input id="day">
+                <p>Please Enter Your Day Of Birth:</p>
+                <input id="day">
     
-        <p>Please Enter Your Month Of Birth:</p>
-        <input id="month">
+                <p>Please Enter Your Month Of Birth:</p>
+                <input id="month">
 
-        <p>Please Enter Your Year Of Birth:</p>
-        <select id="year"></select>
+                <p>Please Enter Your Year Of Birth:</p>
+                <select id="year"></select>
     
-        <button type="button" onclick="myFunction()">Submit</button>
+                <button type="button" onclick="myFunction()">Submit</button>
     
-         <p id="print"></p>
+                <p id="print"></p>
         </div>
     </body>
 </html>
