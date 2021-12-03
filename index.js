@@ -14,8 +14,8 @@ function myFunction() {
   // Get the value of the input fields
   let x = document.getElementById("day").value;
   let y = document.getElementById("month").value;
-  var select = document.getElementById("year");
-  var z = select.options[select.selectedIndex].value;
+  var selectedYear = document.getElementById("year");
+  var z = selectedYear.options[selectedYear.selectedIndex].value;
   console.log(z);
 
   var genderInput = document.getElementsByName("gender");
@@ -36,6 +36,18 @@ function myFunction() {
   }
   document.getElementById("print").innerHTML = text;
 }
+
+  //formula to determine day of birth
+  //Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+  // CC - is the century digits. For example 1989 has CC = 19
+  //YY - is the Year digits (1989 has YY = 89)
+  //MM -  is the Month
+  //DD - is the Day of the month 
+  //mod - is the modulus function ( % )
+
+  let dayOfWeekIndex = Math.floor((((Number(selectedYear.slice(0,2))/4)-2*Number(selectedYear.slice(0,2))-1)+
+          ((5*Number(selectedYear.slice(2,4))/4))+((26*(y+1)/10))+x)%7);
+
 
 
 
