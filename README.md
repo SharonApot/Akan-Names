@@ -6,10 +6,16 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 This app takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 
 ## Setup/Installation Requirements
-To use this application, all that a user need to input are;
+This application can be accessed via the link: shazz-designing.github.io/akan-names/
+
+To use it, all that a user need to input are;
+
 i) Day of Birth
+
 ii) Month of Birth
+
 iii) Year of Birth
+
 Iv) Gender
 
 With the above information from the user, the app is able to generate the Akan Name.
