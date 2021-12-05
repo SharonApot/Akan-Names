@@ -79,3 +79,7 @@ else {
 }
 document.getElementById("result").innerHTML = texts;
 }
+
+function refreshPage(){
+  window.location.reload();
+} 

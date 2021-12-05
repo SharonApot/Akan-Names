@@ -1,10 +1,10 @@
 .header img {
-    width: 100px;
+    width: 90px;
     float: left;  
 }
 
 .header h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-family: cursive;
     color: rgb(18, 137, 167); 
     text-indent: 05%;
@@ -20,20 +20,29 @@ table, th, td {
 }
 
 th, td {
-    padding: 8.5px;
+    padding: 9px;
 }
 
 .Box
     {
     float: right;
-    padding: 0.5%;
-    width: 60%;
+    padding: 0.4%;
+    width: 66%;
     border: 2px solid rgb(18, 137, 167);
+    margin-top: -3%;
 }
+.Results
+    {
+        background-color: aqua;
+        border: 2px solid black;
+        padding: 0.4%
+
+ }
+
 
 body {
     font-family: "Century Gothic";
-    font-size: 18px;
+    font-size: 18.5px;
     background-image: url("Background.png");
 }
 

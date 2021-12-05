@@ -65,28 +65,34 @@
             <form id = "akanForm" autocomplete="off">
                 <p>Select your gender and enter your birth-date below to see what your Akan name would be.</p>
                 <label for="gender">
-                <p>Please Select Your Gender: </p>
+                <p><b>Please Select Your Gender: </p></b>
                 Male
                 <input id="male" type="radio" name="gender" value="Male" required>
                 Female
                 <input id="female" type="radio" name="gender" value="Female" required>
-    
-                </label>
-        
-                <p>Please Enter Your Day Of Birth:</p>
-                <input id="day">
-    
-                <p>Please Enter Your Month Of Birth:</p>
-                <input id="month">
 
-                <p>Please Enter Your Year Of Birth:</p>
-                <select id="year"></select>
+                </label>
+
+                <p><b>Please enter Your Date Of Birth to Generate Your Akan Name </p></b>
+                
+                <p>Day:
+                <input id="day" size="02">
+    
+                Month:
+                <input id="month" size="02">
+
+                Select Year:
+                <select id="year"></select><br><br>
     
                 <button type="button" onclick="myFunction()">GENERATE AKAN</button>
-                <input type="reset" value= "CLEAR FORM"> 
+                <button type="button" onClick="refreshPage()">CLEAR FORM</button>
     
-                <p id="print"></p>
-                <p id="result"></p>
+                <div class = Results>
+                    <p id="print"></p>
+                    <p id="result"></p>
+                </div>
+                </p>
+ 
             </form>
         </div>
     </body>
