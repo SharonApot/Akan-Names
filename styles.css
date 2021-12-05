@@ -44,6 +44,7 @@ body {
     font-family: "Century Gothic";
     font-size: 17.5px;
     background-image: url("Background.png");
+    padding: 0px 30px;
 }
 
 label {
