@@ -18,14 +18,16 @@ window.onload = function () {
 //DD - is the Day of the month 
 //mod - is the modulus function ( % )
 
+
 function myFunction() {   
-  // Get the value of the input fields
-  
+
+// Get the value of the input fields  
 let x = document.getElementById("day").value;
 let y = document.getElementById("month").value;
 var selectedYear = document.getElementById("year");
 var z = selectedYear.options[selectedYear.selectedIndex].value;
 console.log(z);
+
 
 var genderInput = document.getElementsByName("gender");
 var gen = "";
