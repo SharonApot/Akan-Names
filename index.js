@@ -75,7 +75,7 @@ else if (gen == "Female" ) {
    texts="Which means that You were born on a " + daysOfWeek[day] + " and your Akan name is " + femaleAkanNames[day];
  } 
 else {
-   texts="Input not valid. You entered an invalid day or month, please try again";
+   texts="Input not valid. Please select your gender and try again";
 }
 document.getElementById("result").innerHTML = texts;
 }
