@@ -60,11 +60,11 @@ input[type=text]:focus{
     border: 2px solid rgb(18, 137, 167);
 }
 
-input[type=submit]:hover{
+input[type=button]:hover{
     border: 2px solid rgb(18, 137, 167);
 }
 
-input[type=reset]:hover{
+input[type=button]:hover{
     border: 2px solid rgb(18, 137, 167);
 }
 
